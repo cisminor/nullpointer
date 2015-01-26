@@ -1,0 +1,300 @@
+@import "../reindeer/legacy-styles.css";
+
+.red{
+    background: greenyellow;
+    margin: 15px;
+}
+
+.main-container{
+    width: 900px !important;
+}
+
+.v-app {
+    background: white;
+}
+
+.menu-button {
+    background: #777;
+    height: 30px;
+    width: 100px;
+    margin: 10px 5px;
+}
+
+.menu-button:hover {
+    background: #f90;
+}
+
+.active {
+    background: #f90;
+}
+
+.menu-button .v-nativebutton-caption {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.question-list-title {
+    margin-bottom: 5px;
+}
+
+.question-list-title .v-nativebutton-caption {
+    color: #07c;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.question-list-title .v-nativebutton-caption:hover {
+    text-decoration: underline;
+}
+
+.tag {
+    background: #e0eaf1;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #c4dae9;
+    border-right: 1px solid #c4dae9;
+    color: #4a6b82 !important;
+    height: 23px;
+    margin: 2px;
+}
+
+.tag:hover {
+    background: #c4dae9;
+}
+
+.answer-stat {
+    background: #eee;
+    margin-right: 7px;
+    height: 50px;
+    width: 60px;
+    padding: 5px;
+}
+
+.answer-count {
+    color: #808185;
+    font-size: 16px;
+}
+
+.answer-label {
+    color: #555;
+}
+
+.user-label {
+    color: #07c;
+}
+
+.question-list-container {
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+}
+
+.ask-question-label {
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.ask-question-button {
+    background: #333;
+    color: white !important;
+    font-weight: bold !important;
+    margin: 10px 0px;
+    border: 0px;
+    height: 30px;
+    width: 120px;
+}
+
+.validation-error {
+    color: firebrick;
+}
+
+.question-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 7px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.question-text-container {
+    margin: 7px;
+
+}
+
+.question-text {
+    margin-bottom: 5px;
+}
+
+.votes-stat {
+    background: #eee;
+    margin-top: 7px;
+    min-height: 70px;
+    width: 60px;
+    padding: 5px;
+}
+
+.accepted {
+    color: forestgreen;
+}
+
+.votes-count{
+    color: #808185;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+
+}
+
+.votes-label {
+    color: #555;
+}
+
+.delete-button{
+    margin: 7px 0px;
+    background: #333;
+    color: white !important;
+    font-weight: bold !important;
+    border: 0px;
+    height: 20px;
+    width: 100px;
+}
+
+.date-label {
+    margin-right: 5px;
+    color: #808185;
+}
+
+.vote-button {
+    margin: 7px 5px 7px 0px;
+    background: #777;
+    color: white !important;
+    font-weight: bold !important;
+    border: 0px;
+    height: 20px;
+    width: 100px;
+}
+
+.reply-button {
+    margin: 7px 5px 7px 0px;
+    background: #f90;
+    color: white !important;
+    font-weight: bold !important;
+    border: 0px;
+    height: 20px;
+    width: 100px;
+}
+
+.accept-button {
+    margin: 7px 5px 7px 0px;
+    background: #f90;
+    color: white !important;
+    font-weight: bold !important;
+    border: 0px;
+    height: 20px;
+    width: 100px;
+}
+
+.answers-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 7px;
+}
+
+.null {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f90;
+    line-height: 50px;
+}
+
+.pointer{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    line-height: 50px;
+}
+
+.header-username {
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+.header-logout span{
+    color: #07c !important;
+}
+
+.big-tag {
+    border: 0px;
+    background: white;
+
+}
+
+.big-tag span {
+    font-weight: bold;
+}
+
+.big-tag span:hover{
+    text-decoration: underline;
+}
+
+.v-customcomponent.v-widget:nth-child(odd) .big-tag span{
+    color: #333;
+}
+
+.v-customcomponent.v-widget:nth-child(even) .big-tag span{
+    color: #f90;
+}
+
+.tag-size-1 {
+    font-size: 14px !important;
+}
+.tag-size-2 {
+    font-size: 18px !important;
+}
+.tag-size-3 {
+    font-size: 21px !important;
+}
+.tag-size-4 {
+    font-size: 24px !important;
+}
+.tag-size-5 {
+    font-size: 30px !important;
+}
+
+.flow {
+    margin-top: 15px;
+}
+
+.login-label {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.login-field {
+    height: 30px !important;
+    background: white;
+}
+
+
+.login-button {
+    background: #f90;
+    width: 300px;
+    height: 30px;
+    border: none;
+    color: white !important;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px !important;
+}
+
+.login-container {
+    margin-top: 20px;
+}
